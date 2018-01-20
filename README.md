@@ -1,5 +1,6 @@
 # WP-SQLite Integration
 
+```
 Contributors: kjmtsh
 Plugin Name: SQLite Integration
 Plugin URI: http://dogwood.skr.jp/wordpress/sqlite-integration/
@@ -11,6 +12,7 @@ Tested up to: 4.1.1
 Stable tag: 1.8.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+```
 
 SQLite Integration is the plugin that enables WordPress to use SQLite. If you want to build a WordPress website with it, this plugin is for you.
 
