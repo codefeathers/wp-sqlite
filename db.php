@@ -83,12 +83,12 @@ if (!extension_loaded('pdo_sqlite')) {
  * PDODIR is SQLite Integration installed directory.
  */
 if (defined('WP_PLUGIN_DIR')) {
-	define('PDODIR', WP_PLUGIN_DIR . '/sqlite-integration/');
+	define('PDODIR', WP_PLUGIN_DIR . '/wp-sqlite/');
 } else {
 	if (defined('WP_CONTENT_DIR')) {
-		define('PDODIR', WP_CONTENT_DIR . '/plugins/sqlite-integration/');
+		define('PDODIR', WP_CONTENT_DIR . '/plugins/wp-sqlite/');
 	} else {
-		define('PDODIR', ABSPATH . 'wp-content/plugins/sqlite-integration/');
+		define('PDODIR', ABSPATH . 'wp-content/plugins/wp-sqlite/');
 	}
 }
 /*
